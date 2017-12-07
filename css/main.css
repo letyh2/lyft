@@ -1,20 +1,101 @@
 /*
  * Estilos de tu proyecto
  */
-body{
-  margin: 30px;
-  padding: 30px;
-}
-
-div{
-  width: 900px;
-  height: -800px;
-  background-image: url(../assets/images/hero.gif);
-  background-repeat: no-repeat;
-}
-.phone{
+ body{
+   margin: 0px;
+   padding: 0px;
+ }
+.fondo{
   position: relative;
-  width: 100px;
-  height: 200px;
+  height: 900px;
+  width: 900px;
+}
+img{
+  height: 1257px;
+  width: 1257px;
+  margin:0px;
+}
+a,button{
+  display: inline-block;
+  margin: 5px 5px;
+  margin:40px;
+  float: right;
+}
+.ly{
+position: fixed;
+width: 1218px;
+  border: 1px solid black;
+  padding: 40px;
+  margin-top:-1260px;
+  background-color: #ffffff;
+  }
+.ly hover{
+  background-color: #fff;
+}
+.ly img{
+  width: 50px;
+  height: 50px;
 
+}
+.caja{
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  margin-top: 200px;
+  margin: -879px 751px;
+  background-color: #ffffff;
+}
+h4{
+text-align: center;
+}
+.caja h1{
+  text-align: center;
+  font-size: 40px;
+}
+.caja2{
+  background-color: #ae6cb7;
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  margin-top: 20px;
+}
+
+
+hr{
+  width: 300px;
+  margin: 20px;
+}
+button{
+  width: 100px;
+  height:30px;
+  margin: 10px;
+  background: #f20ec0;
+  font-style:Montserrat
+
+  color:#fff;
+}
+input{
+ float: left;
+  margin: 20px;;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-style:Montserrat
+}
+input{
+
+  border: #fff;
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  margin: none
+}
+
+.telefono img{
+  width: 300px;
+  height: 300px;
+  margin-left: 500px;
+  margin-top: 0px;
 }
